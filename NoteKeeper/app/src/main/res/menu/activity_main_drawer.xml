@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_description_blackx"
+            android:title="My notes" />
+        <item
+        android:id="@+id/nav_shared_notes"
+        android:icon="@drawable/ic_shared_notes"
+        android:title="Shared notes" />
+        <item
+            android:id="@+id/nav_assigned_notes"
+            android:icon="@drawable/ic_assigned_notes"
+            android:title="Assigned notes" />
+        <item
+            android:id="@+id/nav_recieved_notes"
+            android:icon="@drawable/ic_recieved_notes"
+            android:title="Recieved notes" />
+        <item
+            android:id="@+id/nav_pending_notes"
+            android:icon="@drawable/ic_action_pending_notes"
+            android:title="Pending notes" />
+    </group>
+
+    <item android:title="Connect">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_friends"
+                    android:checkableBehavior="single"
+                    android:icon="@drawable/ic_person_black_24px"
+                    android:title="Friends" />
+                <item
+                    android:id="@+id/nav_find_friends"
+                    android:icon="@drawable/ic_person_add_black_24px"
+                    android:title="Find friends" />
+                <item
+                    android:id="@+id/nav_pending_requests"
+                    android:icon="@drawable/ic_pending_requests"
+                    android:title="Pending requests" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

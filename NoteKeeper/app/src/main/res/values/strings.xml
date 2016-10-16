@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Note Keeper</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="offer_signup">No account yet? <u>Create one</u></string>
+    <string name="offer_signin">Already a member? <u>Login</u>"</string>
+    <string name="title_activity_friend">FriendActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="session_name">rs.elfak.diplomski.aleksa.notekeeper.SESSION_ID</string>
+</resources>
